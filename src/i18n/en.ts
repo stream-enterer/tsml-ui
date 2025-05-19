@@ -75,8 +75,8 @@ export const en: Translation = {
   },
   type_any: 'Any Type',
   type_descriptions: {
-    C: 'Closed meetings are for A.A. members only, or for those who have a drinking problem and “have a desire to stop drinking.”',
-    O: 'Open meetings are available to anyone interested in Alcoholics Anonymous’ program of recovery from alcoholism. Nonalcoholics may attend open meetings as observers.',
+    C: 'Closed meetings are for M.A. members only, or for those who have a marijuana problem and “have a desire to stop using marijuana.”',
+    O: 'Open meetings are available to anyone interested in Marijuana Anonymous’ program of recovery from marijuana addiction. Non-addicts may attend open meetings as observers.',
   },
   types: {
     ...getTypesForLanguage('en'),
@@ -85,6 +85,7 @@ export const en: Translation = {
     'in-person': 'In-person',
     online: 'Online',
     SPD: 'Speaker/Discussion',
+    CH: 'Chips/Birthdays',
   },
   unnamed_meeting: 'Unnamed meeting',
   updated: 'Updated %updated%',

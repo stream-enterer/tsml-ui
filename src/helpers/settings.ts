@@ -8,7 +8,7 @@ import { en, es, fr, ja, nl, pt, sk, sv } from '../i18n';
 // override these on your page with tsml_react_config
 export const defaults: TSMLReactConfig = {
   cache: false,
-  calendar_enabled: true,
+  calendar_enabled: false,
   columns: ['time', 'distance', 'name', 'location_group', 'address', 'region'],
   conference_providers: {
     'bluejeans.com': 'Bluejeans',
@@ -47,7 +47,7 @@ export const defaults: TSMLReactConfig = {
   distance_options: [1, 2, 5, 10, 15, 25, 50, 100],
   distance_unit: 'mi', //mi or km
   duration: 60,
-  feedback_emails: [], //email addresses for update meeting info button
+  feedback_emails: ['webmaster@madistrict6.org'], //email addresses for update meeting info button
   filters: ['region', 'distance', 'weekday', 'time', 'type'],
   in_person_types: [
     'BA',
